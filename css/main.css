@@ -346,6 +346,10 @@ font-family: 'Quattrocento Sans', sans-serif; */
     display: flex;
 }
 
+.team__list-item:hover .team__item-img {
+    opacity: 0.4;
+}
+
 .team__item-img {
     width: 100%;
     height: auto;

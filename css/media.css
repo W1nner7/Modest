@@ -167,8 +167,6 @@
         letter-spacing: normal;
     }
 
-
-
     .gallery__wrapper-img {
         height: 70vw;
     }
@@ -221,7 +219,7 @@
     }
 }
 
-@media (max-height:414px) and (orientation:landscape) {
+@media (max-height:414px) and (max-width: 860px) and (orientation:landscape) {
     .header__list {
         display: flex;
         justify-content: space-around;
@@ -233,6 +231,8 @@
         left: calc(-100vw - 15px);
         position: absolute;
         transition: left ease-in-out 0.7s;
+        z-index: 2;
+        background: #fff;
     }
 
     .header__list--active {
